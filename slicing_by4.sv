@@ -185,10 +185,3 @@ endmodule
 
 
 
- /*always_ff @(posedge clk_i or negedge rst_i) begin 
-        if (rst_i ==1'b0) begin
-                crc_q       <=  0;
-        end
-        else 
-                crc_q        <= crc_d;
-        end*/
